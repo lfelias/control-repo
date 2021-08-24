@@ -1,3 +1,3 @@
-node puppetnew.local {
+node puppet.local {
 include role::master
 }
