@@ -3,6 +3,7 @@ include role::master
 }
 
 node puppetnode01 {
+include role::nada
 }
 
 
