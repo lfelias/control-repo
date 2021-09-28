@@ -1,4 +1,4 @@
-node puppet-master {
+node "puppet-master.local" {
 include role::master
 }
 
