@@ -2,11 +2,11 @@ node "puppet-master.local" {
 include role::master
 }
 
-node "puppetnode01" {
+node "puppetnode1" {
 include role::ntpconfig
 }
 
 
-node "puppetnode02" {
+node "puppetnode2" {
 include role::ntpconfig
 }
