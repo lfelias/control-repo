@@ -10,3 +10,8 @@ include role::ntpconfig
 node "puppetnode2" {
 include role::ntpconfig
 }
+
+
+node "defailt" {
+
+}
