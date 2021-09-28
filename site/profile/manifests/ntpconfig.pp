@@ -16,7 +16,7 @@ class profile::ntpconfig {
 
 
 #Service
- service { "ntpd":
+ service { "ntp":
   ensure => "running",
  }
 
