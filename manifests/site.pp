@@ -1,10 +1,11 @@
-node puppet-master {
+node "puppet-master.local" {
 include role::master
 }
 
-node puppetnode01 {
+node "puppetnode01" {
+include role::nada
 }
 
 
-node puppetnode02 {
+node "puppetnode02" {
 }
