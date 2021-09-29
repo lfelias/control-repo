@@ -1,4 +1,4 @@
 ---
-
+"A"
 ntp::servers:
  - 'server 2.au.pool.ntp.org'
