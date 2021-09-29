@@ -1,3 +1,9 @@
 class motd {
-  contain::motd
+  if $::kernel == 'Linux' {
+    file {'/etc/motd':
+      ensure = file,
+      content = template('motd.erb')
+    }
+  }
+
 }
