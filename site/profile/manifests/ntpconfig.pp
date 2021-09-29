@@ -11,7 +11,7 @@ class profile::ntpconfig {
 #Config File
  file { "/etc/ntp.conf":
   ensure => "present",
- content => hiera('ntp::servers:server'),
+ content => hiera('ntp::servers::server'),
  }
 
 
