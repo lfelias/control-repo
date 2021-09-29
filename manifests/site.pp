@@ -3,12 +3,12 @@ include role::master
 }
 
 node "puppetnode1" {
-include role::ntpconfig
+include role::basic_config
 }
 
 
 node "puppetnode2" {
-include role::ntpconfig
+include role::basic_config
 }
 
 
