@@ -12,6 +12,6 @@ include role::ntpconfig
 }
 
 
-node "defailt" {
+node "default" {
 
 }
