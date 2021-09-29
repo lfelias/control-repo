@@ -1,0 +1,3 @@
+class motd {
+  contain::motd
+}
