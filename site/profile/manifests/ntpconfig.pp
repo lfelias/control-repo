@@ -11,7 +11,7 @@ class profile::ntpconfig {
 #Config File
  file { "/etc/ntp.conf":
   ensure => "present",
- content => lookup('ntp::servers::server'),
+ content => 'server 2.au.pool.ntp.org',
  }
 
 
